@@ -1,0 +1,51 @@
+<div class="toolbar" role="banner">
+    <img
+       width="40"
+       alt="Student Logo"
+       src="https://cdn4.vectorstock.com/i/thumb-large/43/98/student-education-logo-vector-14724398.jpg"
+     />
+  <span><h3>STUDENT LOGIN</h3></span>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Student Details</h1>
+  
+ <!--<div>
+   <form>
+     Id:<input type="number" [(ngModel)]="student.id" name="id"/><br/>
+     Name:<input type="text" [(ngModel)]="student.name" name="name"/><br/>
+     Branch:<input type="text" [(ngModel)]="student.branch" name="branch"/><br/>
+     Emailid:<input type="email" [(ngModel)]="student.emailid" name="emailid"/><br/>
+     Phnno:<input type="number" [(ngModel)]="student.phnno" name="phnno"/><br/>
+     <button (click)="addStudent()">Submit</button>
+   </form>
+ </div>-->
+ <form>
+ <div class="form-group">
+  <label for="usr">Id:<br></label>
+  <input type="number" [(ngModel)]="student.id" name="id"/>
+</div>
+<br>
+<div class="form-group">
+  <label for="rollno">Name:<br></label>
+  <input type="text" [(ngModel)]="student.name" name="name"/>
+</div>
+<br>
+<div class="form-group">
+  <label for="branch">Branch:<br></label>
+  <input type="text" [(ngModel)]="student.branch" name="branch"/>
+</div>
+<br>
+<div class="form-group">
+  <label for="email">EmailId:<br></label>
+  <input type="email" [(ngModel)]="student.emailid" name="emailid"/>
+</div>
+<br>
+<div class="form-group">
+  <label for="phnno">Phnno:<br></label>
+  <input type="number" [(ngModel)]="student.phnno" name="phnno"/>
+</div>
+<br>
+<button (click)="addStudent()">Submit</button>
